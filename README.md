@@ -30,6 +30,7 @@ python3 db_anonymizer.py production_backup.sql local_dev_backup.sql
 
 The script reads your SQL file line by line instead of loading the whole thing into memory, meaning it won't crash your laptop even if you are processing a 100GB file.
 
+-
     📂 Open production SQL dump --> 🚀 Read file line by line
     --> Found emails, phones or cards
     
@@ -42,7 +43,6 @@ The script reads your SQL file line by line instead of loading the whole thing i
     
     --> 🔒 Swap real data with fake data]
     --> 🎉 Final Output: Safe, anonymous SQL backup
-```
 
 ---
 
